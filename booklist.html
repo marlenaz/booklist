@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="formBox">
+      <div class="box">
+        <h2>Add new book to your library:</h2>
+        <div class="form">
+
+          <div class="f_row">
+            <label>Book title:</label>
+            <input type="text" class="input-field" name="title" id="titleInput" oninput="getTitle()" required/>
+            <u></u>
+          </div>
+          <div class="f_row">
+            <label>Book author:</label>
+            <input type="text" class="input-field" name="author" id="authorInput" oninput="getAuthor()" required/>
+            <u></u>
+          </div>
+          <div class="f_row">
+            <label>How many pages?</label>
+            <input type="text" class="input-field" name="pages" id="pagesInput" oninput="getPages()" required/>
+            <u></u>
+          </div>
+          <div class="f_row">
+            <label>Have you read this book?</label>
+            <label class="radioLabel">Yes
+            <input type="radio" class="radio" name="read" value="yes" id="readit"/>
+            </label>
+            <label class="radioLabel">No
+            <input type="radio" class="radio" name="read" value="no" id="notread"/>
+            </label>
+          </div>
+          <button id="addbook" class="btn add"><span>+</span></button>
+
+        </div>
+      </div>
+    </div>
+    <div class="list">
+        <h2>Books on the list:</h2>
+        <table>
+          <thead>
+            <tr>
+                <th>Book title</td>
+                <th>Author</td>
+                <th>Number of pages</td>
+                <th>Have it been read</td>
+                <th>Delete book</th>
+            </tr>
+          </thead>
+          <tbody id="table">
+          </tbody>
+        </table>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+  background: -webkit-linear-gradient(left, #049081, #ed2553);
+  background: linear-gradient(to right, #049081, #ed2553);
+  font-family: sans-serif, Arial;
+  height: 100%;
+  width: 100%;
+}
+input, button {
+  font-family: sans-serif, Arial;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.container h1 {
+  text-align: left;
+  top: 30px;
+  left: 80px;
+}
+.formBox {
+  width: 460px;
+  max-width: 100%;
+  height: 552px;
+  margin: 50px 180px 40px -4px;
+  /*margin-left: -4px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 180px;*/
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+.box {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 60px 10px 40px 10px;
+  position: relative;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 11px -2px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  color: #ed2553;
+  padding: 0px 45px;
+  font-size: 50px;
+  line-height: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+}
+h2 {
+  border-left: 15px solid #ed2553;
+  color: #ed2553;
+  padding: 0px 45px;
+  font-size: 30px;
+  line-height: 45px;
+  height: 45px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  margin-left: -10px;
+  position: relative;
+}
+p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #696969;
+}
+form {
+  display: block;
+  padding: 0px 50px;
+  position: relative;
+}
+.f_row {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 52px;
+}
+label {
+  color: #3f3f3f;
+  font-size: 15px;
+  margin-top: -15px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+}
+input {
+  /*zmienia kulki na duze, daje labelom wje¿d¿aæ na siebie*/
+  background-color: transparent;
+  border: none;
+  color: #3f3f3f;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.radioLabel {
+  display: inline;
+  position: relative;
+  padding: 30px;
+  margin-top: 0px;
+  left: 0%;
+  top: 45%
+}
+.radio {
+  display: inline;
+  position: absolute;
+  left: 60px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+u {
+  background-color: #e1e1e1;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+    /* on hover ma siê zmieniaæ na #ed2553 */
+}
+.btn {
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #ed2553;
+  padding: 30px 46px;
+  font-size: 60px;
+  cursor: pointer;
+  position: absolute;
+  top: 72%;
+  left: 85%;
+}
+.add {
+  border-color: #ed2553;
+  color: white;
+}
+.add:hover {
+  background: #e1e1e1;
+  color: #ed2553;
+  border-color: #e1e1e1;
+}
+/*Table style*/
+.list {
+  position: relative;
+  display: inline-block;
+	top: -181px;
+	left: 0px;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th, td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+th {
+	text-align: left;
+}
+thead th {
+		background-color: #ed2553;
+	}
+#table button {
+  border: 1px solid #ed2553;
+  background-color: #ed2553;
+  height: 100%;
+  width: 100%;
+  padding: 8.5px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+#table button:hover {
+  background: #e1e1e1;
+  color: #ed2553;
+  border-color: #e1e1e1;
+}
